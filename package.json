@@ -1,0 +1,26 @@
+{
+  "name": "UserAgentSpider",
+  "version": "1.0.0",
+  "description": "It grabs all kinds of browser user agent string from [http://www.useragentstring.com/pages/All/](http://www.useragentstring.com/pages/All/).",
+  "main": "download.js",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "mkdirp": "^0.5.0",
+    "request": "^2.55.0",
+    "rimraf": "^2.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhenyong/UserAgentSpider.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhenyong/UserAgentSpider/issues"
+  },
+  "homepage": "https://github.com/zhenyong/UserAgentSpider"
+}
